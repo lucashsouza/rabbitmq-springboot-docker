@@ -7,7 +7,7 @@ Criando filas automaticamente no RabbitMQ, produzindo e consumindo mensagens em 
 - [x] Seção 01: Introdução
 - [x] Seção 02: RabbitMQ com Docker
 - [x] Seção 03: Criando um Producer
-- [ ] Seção 04: Colocando RabbitMQ no arquivo de configuração
+- [x] Seção 04: Colocando RabbitMQ no arquivo de configuração
 - [ ] Seção 05: Configuração do RabbitMQ no SpringBoot
 - [ ] Seção 06: Criando projeto de Producer no SpringBoot
 - [ ] Seção 07: Criando projeto SpringBoot Consumer
