@@ -10,7 +10,7 @@ Criando filas automaticamente no RabbitMQ, produzindo e consumindo mensagens em 
 - [x] Seção 04: Colocando RabbitMQ no arquivo de configuração
 - [x] Seção 05: Configuração do RabbitMQ no SpringBoot
 - [x] Seção 06: Criando projeto de Producer no SpringBoot
-- [ ] Seção 07: Criando projeto SpringBoot Consumer
+- [x] Seção 07: Criando projeto SpringBoot Consumer
 - [ ] Seção 08: Criando configuração do Consumer
 - [ ] Seção 09: Enviando mensagem de erro para DeadLetter
 - [ ] Seção 10: Retornando uma Deadletter
