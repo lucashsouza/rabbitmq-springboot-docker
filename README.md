@@ -13,7 +13,7 @@ Criando filas automaticamente no RabbitMQ, produzindo e consumindo mensagens em 
 - [x] Seção 07: Criando projeto SpringBoot Consumer
 - [x] Seção 08: Criando configuração do Consumer
 - [x] Seção 09: Enviando mensagem de erro para DeadLetter
-- [ ] Seção 10: Retornando uma Deadletter
+- [x] Seção 10: Retornando uma Deadletter
 
 ### Links Úteis
 - Instrutor: Kleber Nunes Inacio [@MrSpock182](https://github.com/wcaquino)
