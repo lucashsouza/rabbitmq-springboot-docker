@@ -1,10 +1,10 @@
 package br.com.lucashsouza.spring.consumer.dto;
 
-public class Message {
+public class MessageQueue {
 
     private String text;
 
-    public Message() {
+    public MessageQueue() {
         // default constructor
     }
 
