@@ -34,7 +34,7 @@
 - [x] Seção 02: Padronização Filas Producer
 - [x] Seção 03: Builder Queue Producer
 - [x] Seção 04: Padronização Filas Consumer
-- [ ] Seção 05: Configuração do RabbitMQ na API Consumer
+- [x] Seção 05: Configuração do RabbitMQ na API Consumer
 - [ ] Seção 06: Builder Queue no Consumer
 - [ ] Seção 07: Tratando Excessões Nas APIS
 - [ ] Seção 08: Função de Reprocessamento de Filas
