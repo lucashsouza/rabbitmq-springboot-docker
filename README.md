@@ -38,5 +38,5 @@
 - [x] Seção 06: Builder Queue no Consumer
 - [x] Seção 07: Tratando Excessões Nas APIS
 - [x] Seção 08: Função de Reprocessamento de Filas
-- [ ] Seção 09: Testando o Reprocessamento
+- [x] Seção 09: Testando o Reprocessamento
 - [ ] Seção 10: Criando EndPoint Para Reprocessamento
