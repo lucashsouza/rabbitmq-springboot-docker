@@ -36,7 +36,7 @@
 - [x] Seção 04: Padronização Filas Consumer
 - [x] Seção 05: Configuração do RabbitMQ na API Consumer
 - [x] Seção 06: Builder Queue no Consumer
-- [ ] Seção 07: Tratando Excessões Nas APIS
-- [ ] Seção 08: Função de Reprocessamento de Filas
+- [x] Seção 07: Tratando Excessões Nas APIS
+- [x] Seção 08: Função de Reprocessamento de Filas
 - [ ] Seção 09: Testando o Reprocessamento
 - [ ] Seção 10: Criando EndPoint Para Reprocessamento

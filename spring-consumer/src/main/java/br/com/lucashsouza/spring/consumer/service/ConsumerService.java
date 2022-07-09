@@ -4,5 +4,5 @@ import br.com.lucashsouza.spring.consumer.dto.MessageQueue;
 
 public interface ConsumerService {
 
-    void action(MessageQueue messageQueue) throws Exception;
+    void action(MessageQueue message);
 }
