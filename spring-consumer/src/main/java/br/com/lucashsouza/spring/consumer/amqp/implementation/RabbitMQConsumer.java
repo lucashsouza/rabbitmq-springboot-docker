@@ -21,7 +21,6 @@ public class RabbitMQConsumer implements AmqpConsumer<MessageQueue> {
             consumerService.action(messageQueue);
         } catch (Exception e) {
             throw new AmqpRejectAndDontRequeueException(e);
-
         }
     }
 }
