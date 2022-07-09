@@ -18,6 +18,9 @@ public class RePuplishRabbitMQ implements AmqpRePublish {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
+    private static final String X_RETRIES_HEADER = "x-retries";
+    private static final int NUMERO_MAXIMO_TENTATIVAS = 3;
+
     @Value("${spring.rabbitmq.request.exchange.producer}")
     private String exchange;
 
@@ -30,7 +33,6 @@ public class RePuplishRabbitMQ implements AmqpRePublish {
     @Value("${spring.rabbitmq.request.parking-lot.producer}")
     private String parkingLot;
 
-    private static final String X_RETRIES_HEADER = "x-retries";
 
     @Override
     @Scheduled(cron = "${spring.rabbitmq.listener.time-retry}")
@@ -45,7 +47,7 @@ public class RePuplishRabbitMQ implements AmqpRePublish {
                 retriesHeader = 0;
             }
 
-            if (retriesHeader < 3) {
+            if (retriesHeader < NUMERO_MAXIMO_TENTATIVAS) {
                 headers.put(X_RETRIES_HEADER, retriesHeader + 1);
                 rabbitTemplate.send(exchange, routingKey, message);
             } else {

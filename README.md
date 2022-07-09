@@ -39,4 +39,4 @@
 - [x] Seção 07: Tratando Excessões Nas APIS
 - [x] Seção 08: Função de Reprocessamento de Filas
 - [x] Seção 09: Testando o Reprocessamento
-- [ ] Seção 10: Criando EndPoint Para Reprocessamento
+- [x] Seção 10: Criando EndPoint Para Reprocessamento
