@@ -1,7 +1,7 @@
 package br.com.lucashsouza.spring.producer.service;
 
-import br.com.lucashsouza.spring.producer.dto.Message;
+import br.com.lucashsouza.spring.producer.dto.MessageQueue;
 
 public interface AmqpService {
-    void sendToConsumer(Message message);
+    void sendToConsumer(MessageQueue message);
 }

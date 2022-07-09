@@ -1,9 +1,9 @@
 package br.com.lucashsouza.spring.producer.dto;
 
-public class Message {
+public class MessageQueue {
     private String text;
 
-    public Message() {
+    public MessageQueue() {
         // default constructor
     }
 

@@ -10,6 +10,8 @@ spring:
       exchange:
         producer: ex.producer.aula-spring
       routing-key:
-          producer: rk.producer.aula-spring # queue
-      deadletter:
-          producer: dl.producer.aula-spring
+        producer: rk.producer.aula-spring # queue
+      dead-letter:
+        producer: dl.producer.aula-spring
+      parking-lot:
+        producer: pl.producer.aula-spring

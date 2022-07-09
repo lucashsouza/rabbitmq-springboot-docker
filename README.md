@@ -1,9 +1,20 @@
 # RabbitMQ com SpringBoot e Docker
 
-## Sobre este curso
-Criando filas automaticamente no RabbitMQ, produzindo e consumindo mensagens em uma aplicação SpringBoot
+## Repositório para estudo dos cursos
+- [RabbitMQ com SpringBoot e Docker](https://www.udemy.com/course/rabbitmq-com-springboot-e-docker/)
+- [Reprocessamento de Filas RabbitMQ no SpringBoot](https://www.udemy.com/course/reprocessamento-de-filas-rabbitmq-no-springboot/)
 
-## Conteúdo
+## Links Úteis
+- Instrutor: Kleber Nunes Inacio [@MrSpock182](https://github.com/wcaquino)
+- Repositórios de referências:
+    - [rabbitmq-producer-springboot](https://github.com/MrSpock182/rabbitmq-producer-springboot)
+    - [rabbitmq-consumer-springboot](https://github.com/MrSpock182/rabbitmq-consumer-springboot)
+
+## RabbitMQ com SpringBoot e Docker
+    Criando filas automaticamente no RabbitMQ, 
+    Produzindo e consumindo mensagens em uma aplicação SpringBoot
+
+### Conteúdo
 - [x] Seção 01: Introdução
 - [x] Seção 02: RabbitMQ com Docker
 - [x] Seção 03: Criando um Producer
@@ -15,9 +26,17 @@ Criando filas automaticamente no RabbitMQ, produzindo e consumindo mensagens em 
 - [x] Seção 09: Enviando mensagem de erro para DeadLetter
 - [x] Seção 10: Retornando uma Deadletter
 
-### Links Úteis
-- Instrutor: Kleber Nunes Inacio [@MrSpock182](https://github.com/wcaquino)
-- Disponível na plataforma: [Udemy](https://www.udemy.com/course/rabbitmq-com-springboot-e-docker)
-- Repositórios de referências:
-    - [rabbitmq-producer-springboot](https://github.com/MrSpock182/rabbitmq-producer-springboot)
-    - [rabbitmq-consumer-springboot](https://github.com/MrSpock182/rabbitmq-consumer-springboot)
+## Reprocessamento de Filas RabbitMQ no SpringBoot
+    Aprenda a reprocessar filas de forma automática
+
+### Conteúdo
+- [x] Seção 01: Introdução
+- [x] Seção 02: Padronização Filas Producer
+- [x] Seção 03: Builder Queue Producer
+- [ ] Seção 04: Padronização Filas Consumer
+- [ ] Seção 05: Configuração do RabbitMQ na API Consumer
+- [ ] Seção 06: Builder Queue no Consumer
+- [ ] Seção 07: Tratando Excessões Nas APIS
+- [ ] Seção 08: Função de Reprocessamento de Filas
+- [ ] Seção 09: Testando o Reprocessamento
+- [ ] Seção 10: Criando EndPoint Para Reprocessamento
